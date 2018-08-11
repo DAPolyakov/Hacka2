@@ -42,6 +42,7 @@ public class BallView  extends View{
         super.onSizeChanged(w, h, oldw, oldh);
         this.height = h;
         this.weight = w;
+        ///
     }
 
     public BallView(Context context, @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
